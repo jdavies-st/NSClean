@@ -6,4 +6,9 @@ setup(name='nsclean',
       author='Bernard J. Rauscher',
       author_email='Bernard.J.Rauscher@nasa.gov',
       packages=['nsclean'],
+      install_requires=[
+          'astropy',
+          'numpy',
+          'Pillow',
+      ],
       zip_safe=False)
